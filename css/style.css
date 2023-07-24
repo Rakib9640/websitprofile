@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline-offset: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    list-style: none;
+    transition: all 0.5s linear;
+    scroll-behavior: smooth;
+}
+
+
+:root{
+    --primary: #29e9bc;
+    --normal:  #ffffff;
+    --black: #13131a;
+    --bg: #0c1013;
+    --danger: #f75842;
+    --border: 0.1rem solid rgba( 255,255, 255,0.3);
+
+     /* 1 rem = 16 px */
+     /* 0.5rem = 8px */
+
+     --containar-width-lg: 80%;
+     --containar-width-md: 90%;
+     --containar-width-sm: 94%;
+}
+
