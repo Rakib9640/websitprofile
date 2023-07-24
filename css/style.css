@@ -110,6 +110,8 @@
 
   }
 
+
+
   /* ------------------nave----------- */
 
   nav{
@@ -148,6 +150,63 @@ nav button{
   display: flex;
   align-items: center;
   gap: 3rem;
+}
+.nav_menu a{
+  font-size: 1rem;
+}
+.nav_menu a:hover{
+  color: var(--primary);
+  border-bottom: 5px solid var(--primary);
+  padding-bottom: 0.5rem;
+  background-color: var(--black);
+}
+           /* -------------------nave end-------- */
+
+/* ----------------------------header setion-------------- */
+header{
+  position: relative;
+  top: 5rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  background-color: var(--black);
+}
+.header_container{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header_left{
+  flex: 1;
+}
+.header_right{
+  flex: 1;
+
+}
+/* -------------------- */
+
+.header_right .text-1{
+  font-size: 1.8rem;
+  margin-bottom: 0.3rem;
+}
+.header_right .text-2{
+  font-size: 3.6rem;
+  font-weight: 550;
+}
+.header_right .text-3{
+  font-size: 2.5rem;
+  margin: 0.3rem 0;
+}
+header::before{
+  content: "";
+  position: absolute;
+  background-color: var(--black);
+  width: 100%;
+  height: 5rem;
+  bottom: 0;
+  margin-bottom:  -3.1rem;
+  z-index: 99;
+  transform: skewY(-3deg);
+  transform-origin: left;
 }
 
  
