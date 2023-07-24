@@ -19,7 +19,7 @@
     --primary: #29e9bc;
     --normal:  #ffffff;
     --black: #13131a;
-    --bg: #0c1013;
+    --bg: #020406be;
     --danger: #f75842;
     --border: 0.1rem solid rgba( 255,255, 255,0.3);
 
@@ -56,7 +56,9 @@
     width: var(--containar-width-lg);
     color: var(--normal);
     background-color: var(--bg);
+    margin: 0 auto;
   }
+
   section{
     /* ------------- 6rem = 6x16----- 72 px*/
     padding: 6rem 0;
@@ -76,11 +78,13 @@
   h3{ font-size: 1.6rem;}
   h4{ font-size: 1.3rem;}
   a{ color: var(--normal);}
+
   img{
     width: 100%;
     display: block;
     object-fit: cover;
   }
+  
   .bnt{
     display: inline-block;
     background-color: var(--primary);
@@ -90,12 +94,61 @@
     border-radius: 0.3rem;
     font-weight: 500;
   }
+
   .bnt:hover{
     color: var(--primary);
     background-color: transparent;
     border-color: var(--primary);
+  }
+
+  .border_bottom{
+    text-align: center;
+    display: inline-block;
+    border-bottom: 2px solid var(--primary);
+    color: var(--primary);
+    margin-bottom: 2.5rem;
 
   }
+
+  /* ------------------nave----------- */
+
+  nav{
+    background-color: var(--black);
+    width: 100vw;
+    height: 5rem;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+  }
+  .nav_container{
+    display: flex;
+    height:100%;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+.nav_container samp{
+  color: var(--primary);
+}
+.nav_container h4{
+  font-size: 1.8rem;
+}
+.nav_container h4::first-letter{
+  font-size: 2.4rem;
+}
+.nav_container h4:hover{
+  color: var(--primary);
+  transform: rotatex(360deg);
+  transition-duration: 3s;
+}
+nav button{
+  display: none;
+}
+.nav_menu{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
 
  
 
