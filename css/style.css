@@ -260,7 +260,7 @@ header::before{
 /* -------------------------------------------  service -------------------- */
 .services{
   text-align: center;
-  position: relative;
+  margin: -5rem 0;
 }
 
 .services_container .cards{
@@ -269,11 +269,14 @@ header::before{
   justify-content: space-between;
   text-align: center;
   margin-bottom: 3rem;
+  position: relative;
+  padding: 4rem 0;
+
   
 }
 .services_container .cards .card{
   background-color: var(--primary);
-  padding: 1.5rem 1rem;
+  padding: 2.5rem 1rem;
   margin: 0 1.5rem;
   cursor: pointer;
   position: relative;
@@ -325,6 +328,7 @@ header::before{
 .services_container .cards .card:hover::after{
   transform: rotate(13deg);
   transition: 2s;
+  z
 }
 
 
