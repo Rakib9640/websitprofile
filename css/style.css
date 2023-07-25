@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500;1,700&display=swap');
-
 *{
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -95,6 +94,8 @@
     font-weight: 500;
   }
 
+  
+  
   .bnt:hover{
     color: var(--primary);
     background-color: transparent;
@@ -259,7 +260,7 @@ header::before{
 /* -------------------------------------------  service -------------------- */
 .services{
   text-align: center;
-  margin: -5rem 0;
+  margin: -3rem 0;
   background: transparent;
 }
 
@@ -270,7 +271,7 @@ header::before{
   text-align: center;
   margin-bottom: 3rem;
   position: relative;
-  padding: 10rem 0;
+  padding: 4rem 0;
 }
 .services_container .cards .card{
   background-color: var(--primary);
