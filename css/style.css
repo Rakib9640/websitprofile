@@ -541,9 +541,9 @@ header::before{
 }
 
 .gallery a{
-  height: 15rem;
-  width: 20rem;
-  margin: 1.2rem;
+  height: 10rem;
+  width: 15rem;
+  margin: 1rem;
   border-radius: 0.3rem;
   overflow: hidden;
   box-shadow: 0 3px 5px var(--primary);
@@ -628,7 +628,47 @@ header::before{
 display: block;
 }
 
+/* -----------------------footer-------------------- */
+footer{
+  padding: 5rem 0;
+  background-color: var(--bg);
+  text-align: center;
+}
+.footer_container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 2rem;
+  justify-content:center;
+  padding: 1rem 2rem;
+}
 
+.footer_container > div h4{
+  margin-bottom: 1.5rem;
+}
 
+.footer_1 p{
+  margin: 0 0 3rem;
+}
+footer ul li {
+  margin-bottom: 0.7rem;
+}
+
+footer ul li a:hover{
+  text-decoration: underline;
+  color: var(--primary);
+}
+.footer_4 p{
+  text-transform: lowercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+.footer_social{
+  display: flex;
+  gap: 1rem;
+  margin: 0.2rem 0;
+}
+.footer_social i{
+  margin: 0 0.3rem;
+}
 
 
