@@ -670,5 +670,48 @@ footer ul li a:hover{
 .footer_social i{
   margin: 0 0.3rem;
 }
+.footer_copyright{
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1.2rem 0;
+  border-top: 2px solid var(--normal);
+}
+/* --------------------------------------responsib web--- */
+
+/* ------------------rablets----------- */
+
+@media screen and (max-width:1024px) {
+  
+     .container{
+       width: var(--containar-width-md);
+     }
+ 
+   h1{
+     font-size: 2.2rem;
+   }
+   h2{
+     font-size: 1.7rem;
+   }
+   h3{
+     font-size: 1.4;
+   }
+   h4{
+     font-size: 1.2rem;
+   }
+
+   .header_right .text-1{
+     font-size: 1.1rem;
+   }
+   .header_right .text-2{
+     font-size: 1.3rem;
+   }
+   .header_right .text-3{
+     font-size: 0.9rem;
+   }
 
 
+
+
+  
+  
+}
