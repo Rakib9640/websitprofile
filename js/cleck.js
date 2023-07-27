@@ -28,4 +28,24 @@ faqs.forEach(faq => {
         })
 
 });
+// ----------------------nav menu hide and show----
+
+const menu = document.querySelector('.nav_menu');
+const menuBtn = document.querySelector('#open_menu_bnt');
+const closeBtn = document.querySelector('#close_menu_bnt');
+
+
+menuBtn.addEventListener('click', () => {
+    menu.style.display = "flex";
+    closeBtn.style.display = "inline-block"
+    menuBtn.style.display = "none"
+    
+ })
+
+ const closeNav = () => {
+    menu.style.displayn = "none"
+    closeBtn.style.display = "inline-block"
+ }
+ closeBtn.addEventListener('click', closeNav);
+
 
